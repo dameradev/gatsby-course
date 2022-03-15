@@ -1,3 +1,9 @@
+const themes = {
+  primary: "var(--color-primary)",
+  background: "var(--color-background)",
+  darkBlue: "var(--color-dark-blue)",
+}
+
 module.exports = {
   content: {
     mode: "all",
@@ -9,7 +15,9 @@ module.exports = {
     ],
   },
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: themes,
+    },
   },
   plugins: [],
 }
