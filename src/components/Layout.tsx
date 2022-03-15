@@ -4,7 +4,7 @@ import Header from "./Header"
 
 const Layout: React.FC = ({ children }) => {
   return (
-    <div className="bg-blue-500">
+    <div className="bg-primary">
       <Header />
       <main>{children}</main>
       <Footer />
